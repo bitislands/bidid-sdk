@@ -1,0 +1,24 @@
+{
+  "name": "bidid-sdk",
+  "version": "0.0.1",
+  "description": "This is the official sdk for bidid accessing",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle",
+    "test": "npm test"
+  },
+  "keywords": [
+    "bidid"
+  ],
+  "author": "bidid",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.10",
+    "graphql": "^16.6.0"
+  }
+}
