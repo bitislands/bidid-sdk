@@ -1,10 +1,10 @@
-import { DidClient, BadAuthError, NetworkError, RateLimitError, BadQueryError } from "../dist";
+import { DidClient, DidEntity, BadAuthError, NetworkError, RateLimitError, BadQueryError } from "../dist";
 
 const queryDid = async () => {
-  const didClient = new DidClient({ key: "test", secret: "secret", uri: "http://localhost:3000/graphql" });
+  const didClient: DidClient = new DidClient({ key: "test", secret: "secret" });
   try {
-    const didEntity1 = await didClient.queryDidEntity({ didName: "000" })
-    const didEntity2 = await didClient.queryDidEntity({ address: "0xa10d1c276bd34823cd789ec5d767050968a2fea1" })
+    const didEntity1: DidEntity = await didClient.queryDidEntity({ didName: "000" })
+    const didEntity2: DidEntity = await didClient.queryDidEntity({ address: "0xa10d1c276bd34823cd789ec5d767050968a2fea1" })
     console.log(didEntity1)
     console.log(didEntity2)
   } catch (err) {

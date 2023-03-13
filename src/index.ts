@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache, gql, NormalizedCacheObject, ApolloQueryRes
 
 const DEFAULT_URIS = {
   arweave: "",
-  center: "https://graph-api.staging.bi.social/graphql"
+  center: "https://graph-api.bi.social/graphql"
 }
 
 // type DataSource = 'arweave' | 'center';
