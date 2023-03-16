@@ -29,7 +29,7 @@ This API requires authentication to ensure that only authorized parties can acce
 ```js
 import { DidClient } from "bidid-sdk";
 
-const didClient = new DidClient({ key: "key", secret: "secret", uri: uri });
+const didClient = new DidClient({ key: "key", secret: "secret" });
 ```
 
 > If you wish to connect to our resolution service, please contact us.
