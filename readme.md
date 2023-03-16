@@ -18,7 +18,7 @@ It is recommended to install using npm:
 npm install bidid-sdk
 ```
 
-> You can also download our from here[此处](https://github.com/bitislands/bidid-sdk)
+> You can also download our from [here](https://github.com/bitislands/bidid-sdk)
 
 Authorization
 --
