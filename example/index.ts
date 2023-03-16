@@ -20,6 +20,8 @@ const queryDid = async () => {
     } else if (err instanceof BadQueryError)
     {
       console.error(err.message)
+    } else {
+      console.error(err)
     }
   }
 }
