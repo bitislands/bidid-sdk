@@ -10,9 +10,9 @@
     "test": "npm test"
   },
   "keywords": [
-    "bidid"
+    "bidid", "bitislands"
   ],
-  "author": "bidid",
+  "author": "bitislands",
   "license": "MIT",
   "devDependencies": {
     "microbundle": "^0.15.1"
