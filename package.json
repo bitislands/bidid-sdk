@@ -1,6 +1,6 @@
 {
   "name": "bidid-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is the official sdk for bidid accessing",
   "homepage": "https://github.com/bitislands/bidid-sdk#readme",
   "main": "dist/index.js",
