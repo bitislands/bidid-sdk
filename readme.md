@@ -32,7 +32,7 @@ import { DidClient } from "bidid-sdk";
 const didClient = new DidClient({ key: "key", secret: "secret" });
 ```
 
-> If you wish to connect to our resolution service, please contact us.
+> If you wish to connect to our resolution service, please contact us via dev@bi.social.
 
 APIs
 --
