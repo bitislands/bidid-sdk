@@ -18,7 +18,7 @@ It is recommended to install using npm:
 npm install bidid-sdk
 ```
 
-> You can also download our from [here](https://github.com/bitislands/bidid-sdk)
+> You can also download our sdk from [here](https://github.com/bitislands/bidid-sdk)
 
 Authorization
 --
@@ -106,7 +106,7 @@ If the request fails, the API will return the following error messages:
 
 ### Note
 
-**If you provide both didName and address at the same time, the resolution will be based on the address only.**。
+**If you provide both didName and address at the same time, the resolution will be based on the address only.**
 
 
 ## Examples
